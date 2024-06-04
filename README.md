@@ -35,5 +35,3 @@ Weekly Wilsonville Weather - https://codepen.io/doctatrey/pen/ExzZzOQ
 Random Star Wars Character - https://codepen.io/doctatrey/pen/YzbZLor
 
 Currency Exchange - https://codepen.io/doctatrey/pen/Povmmjd
-
-yoo
