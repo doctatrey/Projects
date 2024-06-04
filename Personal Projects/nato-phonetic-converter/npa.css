@@ -1,0 +1,66 @@
+#title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#english {
+    border: solid 1px black;
+    width: 1000px;
+    height: 200px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#englishText {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 400px;
+}
+
+#englishTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nato {
+    border: solid 1px black;
+    width: 1000px;
+    height: 200px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#natoText {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 400px;
+}
+
+#natoTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#buttonArea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#convert{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70px;
+    width: 250px;
+    font-size: xx-large;
+}

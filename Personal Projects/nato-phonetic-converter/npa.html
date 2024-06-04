@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nato Phonetic Alphabet</title>
+    <link rel="stylesheet" href="npa.css">
+</head>
+<body>
+    <div id="title"> 
+        <h1 id="titleText">Nato Phonetic Alphabet</h1>
+    </div>
+    <div id="english">
+        <h2 id="englishTitle">Enter Text to Be Converted</h2>
+        <br>
+        <textarea id="englishText" type="Text" placeholder="Put Text Here"></textarea>
+    </div>
+    <br>
+    <div id="buttonArea">
+        <button id="convert" onclick="convert();">Convert</button>
+    </div>
+    <br>
+    <div id="nato">
+        <h2 id="natoTitle">Converted Text</h2>
+        <br>
+        <textarea id="natoText" type="Text" placeholder="Text Appears Here" readonly></textarea>
+    </div>
+    <script src="npa.js"></script>
+</body>
+</html>

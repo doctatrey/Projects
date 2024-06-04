@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <div id='container'>
+        
+        <div class="btnContainer">
+            <input hidden="" id="check" name="check" type="checkbox">
+            <label class="toggle" for="check">
+                <div class="toggle__circle"></div>
+            </label>
+            <div class="toggle-text">
+                <span>C°</span>
+                <span>F°</span>
+            </div>
+        </div>
+
+        <div id="search-box">
+            <input type="text" id="search" placeholder="Enter City Here">
+            <input type="text" id="search2" placeholder="Enter State Here">
+        </div>
+
+        <div id='buttons'>
+            <div class="button-wrapper">
+                <button id='weatherBtn'>Get Weather</button>
+            </div>
+        </div>
+      
+        <div id='weeks'>
+            <div id='today' class='days'>
+                <p id="date1">Today</p>
+                <br>
+                <p id="todayWeather"></p>
+            </div>
+        </div>
+    </div>
+    <script src="test.js"></script>
+</body>
+</html>
