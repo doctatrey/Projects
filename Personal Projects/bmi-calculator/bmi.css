@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  #weight {
+      margin-bottom: 15px;
+      width:200px;
+  }
+  
+  #height {
+      margin-bottom: 15px;
+      width:200px;
+  }
+  
+  #submit {
+      width:100px;
+      height: 50px;
+  }
