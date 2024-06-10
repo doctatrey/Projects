@@ -274,7 +274,46 @@ function checkWin() {
 
 //Reload / Reset Board
 function reload() {
-    window.location.reload();
+  var b1, b2, b3, b4, b5, b6, b7, b8, b9;
+    b1 = document.getElementById("box1");
+    b2 = document.getElementById("box2");
+    b3 = document.getElementById("box3");
+    b4 = document.getElementById("box4");
+    b5 = document.getElementById("box5");
+    b6 = document.getElementById("box6");
+    b7 = document.getElementById("box7");
+    b8 = document.getElementById("box8");
+    b9 = document.getElementById("box9");
+  
+    document.getElementById("box1").value = "";
+    document.getElementById("box2").value = "";
+    document.getElementById("box3").value = "";
+    document.getElementById("box4").value = "";
+    document.getElementById("box5").value = "";
+    document.getElementById("box6").value = "";
+    document.getElementById("box7").value = "";
+    document.getElementById("box8").value = "";
+    document.getElementById("box9").value = "";
+  
+    document.getElementById("box1").disabled = false;
+    document.getElementById("box2").disabled = false;
+    document.getElementById("box3").disabled = false;
+    document.getElementById("box4").disabled = false;
+    document.getElementById("box5").disabled = false;
+    document.getElementById("box6").disabled = false;
+    document.getElementById("box7").disabled = false;
+    document.getElementById("box8").disabled = false;
+    document.getElementById("box9").disabled = false;
+  
+    b1.style.color = "black";
+    b2.style.color = "black";
+    b3.style.color = "black";
+    b4.style.color = "black";
+    b5.style.color = "black";
+    b6.style.color = "black";
+    b7.style.color = "black";
+    b8.style.color = "black";
+    b9.style.color = "black";
 }
 
 //Check turn, and change value accordingly (have function for each button)
