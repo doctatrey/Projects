@@ -1,0 +1,80 @@
+body {
+    background-color: black;
+}
+
+#title {
+    text-align: center;
+    font-size: 450%;
+    font-family: Copperplate, Papyrus, fantasy;
+    color: white;
+}
+
+.row {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0 10px 0;
+    color: white;
+}
+
+.letterContainer {
+    border: 3px solid black;
+    display: inline-block;
+    width: 55px;
+    height: 55px; 
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden; 
+}
+
+.letter {
+    color: black;
+    outline: none;
+    font-size: 40px;
+    font-family: Copperplate, Papyrus, fantasy;
+    text-align: center;
+    line-height: 50px; 
+    margin: 0;
+    padding: 0; 
+    height: 100%; 
+}
+
+.buttonContainer {
+    text-align: center;
+}
+
+.button {
+    background-color: white;
+    text-align: center;
+    padding: 0px;
+    height: 75px;
+    width: 150px;
+    color: black;
+    border-radius: 10em;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid black;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+.button:hover {
+    transform: scale(.95);
+    box-shadow: 0 0 6px white;
+}
+
+.button:active {
+    transform: scale(.87);
+    box-shadow: 0 0 12px white;
+}
+
+#resultContainer {
+    text-align: center;
+}
+
+#resultText {
+    font-size: 50px;
+    font-family: Copperplate, Papyrus, fantasy;
+    color: white;
+    text-align: center;
+}
