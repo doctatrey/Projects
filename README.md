@@ -37,3 +37,5 @@ Random Star Wars Character - https://codepen.io/doctatrey/pen/YzbZLor
 Currency Exchange - https://codepen.io/doctatrey/pen/Povmmjd
 
 Great Gatsby - https://codepen.io/doctatrey/pen/WNBELYO
+
+Wordle - https://codepen.io/doctatrey/pen/oNRqBNO
