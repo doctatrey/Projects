@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle</title>
+    <link rel="stylesheet" href="wordle.css">
+</head>
+<body>
+    <div id="container">
+        <div id="titleContainer">
+            <h1 id="title">Wordle</h1>
+        </div>
+        <div id="attemptContainer">
+            <div id="row1" class="row">
+                <div class="letterContainer" id="container11"> <p class="letter" id="r1c1" contenteditable="true"></p></div>
+                <div class="letterContainer" id="container12"> <p class="letter" id="r1c2" contenteditable="true"></p> </div>
+                <div class="letterContainer" id="container13"> <p class="letter" id="r1c3" contenteditable="true"></p> </div>
+                <div class="letterContainer" id="container14"> <p class="letter" id="r1c4" contenteditable="true"></p> </div>
+                <div class="letterContainer" id="container15"> <p class="letter" id="r1c5" contenteditable="true"></p> </div>
+            </div>
+                
+            <div id="row2" class="row">
+                <div class="letterContainer" id="container21"> <p class="letter" id="r2c1" contenteditable="true"></p> </div>
+                <div class="letterContainer" id="container22"> <p class="letter" id="r2c2" contenteditable="true"></p> </div>
+                <div class="letterContainer" id="container23"> <p class="letter" id="r2c3" contenteditable="true"></p> </div>
+                <div class="letterContainer" id="container24"> <p class="letter" id="r2c4" contenteditable="true"></p> </div>
+                <div class="letterContainer" id="container25"> <p class="letter" id="r2c5" contenteditable="true"></p> </div>
+            </div>
+                
+            <div id="row3" class="row">
+                <div class="letterContainer" id="container31"> <p class="letter" id="r3c1" contenteditable="true"></p> </div>
+                <div class="letterContainer" id="container32"> <p class="letter" id="r3c2" contenteditable="true"></p> </div>
+                <div class="letterContainer" id="container33"> <p class="letter" id="r3c3" contenteditable="true"></p> </div>
+                <div class="letterContainer" id="container34"> <p class="letter" id="r3c4" contenteditable="true"></p> </div>
+                <div class="letterContainer" id="container35"> <p class="letter" id="r3c5" contenteditable="true"></p> </div>
+            </div>
+
+            <div id="row4" class="row">
+                <div class="letterContainer" id="container41"> <p class="letter" id="r4c1" contenteditable="true"></p> </div>
+                <div class="letterContainer" id="container42"> <p class="letter" id="r4c2" contenteditable="true"></p> </div>
+                <div class="letterContainer" id="container43"> <p class="letter" id="r4c3" contenteditable="true"></p> </div>
+                <div class="letterContainer" id="container44"> <p class="letter" id="r4c4" contenteditable="true"></p> </div>
+                <div class="letterContainer" id="container45"> <p class="letter" id="r4c5" contenteditable="true"></p> </div>
+            </div>
+
+            <div id="row5" class="row">
+                <div class="letterContainer" id="container51"> <p class="letter" id="r5c1" contenteditable="true"></p> </div>
+                <div class="letterContainer" id="container52"> <p class="letter" id="r5c2" contenteditable="true"></p> </div>
+                <div class="letterContainer" id="container53"> <p class="letter" id="r5c3" contenteditable="true"></p> </div>
+                <div class="letterContainer" id="container54"> <p class="letter" id="r5c4" contenteditable="true"></p> </div>
+                <div class="letterContainer" id="container55"> <p class="letter" id="r5c5" contenteditable="true"></p> </div>
+            </div>
+
+            <div id="row6" class="row">
+                <div class="letterContainer" id="container61"> <p class="letter" id="r6c1" contenteditable="true"></p> </div>
+                <div class="letterContainer" id="container62"> <p class="letter" id="r6c2" contenteditable="true"></p> </div>
+                <div class="letterContainer" id="container63"> <p class="letter" id="r6c3" contenteditable="true"></p> </div>
+                <div class="letterContainer" id="container64"> <p class="letter" id="r6c4" contenteditable="true"></p> </div>
+                <div class="letterContainer" id="container65"> <p class="letter" id="r6c5" contenteditable="true"></p> </div>
+            </div>
+
+            <div class="buttonContainer">
+                <button id="checkButton" class="button">Check</button>
+                <button id="resetButton" class="button">Restart</button>
+            </div>
+        </div>
+
+        <div id="resultContainer">
+            <p id="resultText"></p>
+        </div>
+
+    </div>
+    <script src="wordle.js"></script>
+</body>
+</html>
