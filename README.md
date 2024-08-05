@@ -8,7 +8,7 @@ Hi! My name is Trey and this is where you will see all of my personal projects I
 
 AP Micro Econ Nuclear Energy vs Renewable Energy Project - https://codepen.io/doctatrey/pen/eYadBQL
 
-GAP Lang reat Gatsby Project - https://codepen.io/doctatrey/pen/WNBELYO
+GAP Lang Great Gatsby Project - https://codepen.io/doctatrey/pen/WNBELYO
 
 
 # PERSONAL PROJECTS
