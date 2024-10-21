@@ -39,3 +39,5 @@ Random Star Wars Character - https://codepen.io/doctatrey/pen/YzbZLor
 Currency Exchange - https://codepen.io/doctatrey/pen/Povmmjd
 
 Wordle - https://codepen.io/doctatrey/pen/oNRqBNO
+
+Random Facts API - https://codepen.io/doctatrey/pen/RwXZvPX
