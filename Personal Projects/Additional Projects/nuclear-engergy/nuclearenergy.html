@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Energy Cost Comparison Calculator</title>
+    <link rel="stylesheet" type="text/css" href="nuclearenergy.css">
+</head>
+<body>
+    <h1>Energy Cost Comparison Calculator</h1>
+    <form id="energy-form">
+        <h2>Nuclear Energy</h2>
+        <label for="nuclear-install">Installation Cost ($):</label>
+        <input type="number" id="nuclear-install" required><br>
+        <label for="nuclear-maintenance">Maintenance Cost per Year ($):</label>
+        <input type="number" id="nuclear-maintenance" required><br>
+        <label for="nuclear-output">Energy Output (kWh per Year):</label>
+        <input type="number" id="nuclear-output" required><br>
+
+        <h2>Renewable Energy</h2>
+        <label for="renewable-install">Installation Cost ($):</label>
+        <input type="number" id="renewable-install" required><br>
+        <label for="renewable-maintenance">Maintenance Cost per Year ($):</label>
+        <input type="number" id="renewable-maintenance" required><br>
+        <label for="renewable-output">Energy Output (kWh per Year):</label>
+        <input type="number" id="renewable-output" required><br>
+
+        <button type="button" onclick="compareEnergy()">Compare</button>
+    </form>
+
+    <div id="results"></div>
+
+    <canvas id="comparisonChart"></canvas>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="nuclearenergy.js"></script>
+</body>
+</html>

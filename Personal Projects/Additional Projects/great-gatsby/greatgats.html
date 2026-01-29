@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Evolution of the American Dream</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+  <link rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+</head>
+<body>
+  <header>
+    <h1>The Evolution of the American Dream</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#timeline">Timeline</a></li>
+        <li><a href="#analysis">Analysis</a></li>
+        <li><a href="#reflections">Reflections</a></li>
+        <li><a href="#quiz">Quiz</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Welcome</h2>
+    <p>This project explores how the idea of the American Dream has changed from the 1920s to today. In "The Great Gatsby," F. Scott Fitzgerald showed us a version of the American Dream that was all about wealth and status. But the American Dream has meant different things at different times. This site will help you see how those meanings have changed and what they can tell us about our own time.</p>
+  </section>
+
+  <section id="timeline">
+    <h2>Interactive Timeline</h2>
+    <div id="timeline-embed"></div>
+    <div id="bubble" class="bubble"></div>
+  </section>
+
+  <section id="analysis">
+    <h2>Comparative Analysis</h2>
+    <h3>1920s: The Roaring Twenties</h3>
+    <p>
+      In the 1920s, the American Dream was about getting rich and having fun. Many people, like Jay Gatsby in "The Great Gatsby," believed that money could buy happiness. Gatsby threw big parties and had a lot of wealth, but he was still not happy. For example, Gatsby's extravagant parties were filled with people he hardly knew, showing that his wealth brought him attention but not true friends. This shows that while people thought wealth was the key to a good life, it often didn't bring true happiness. Gatsby's love for Daisy Buchanan was also part of his dream, but he never fully achieved it because he tried to recreate the past.
+    </p>
+
+    <h3>1930s: The Great Depression</h3>
+    <p>
+      Although "The Great Gatsby" is set in the 1920s, the Great Depression that followed in the 1930s changed how people viewed the American Dream. The novel hints at the fragility of the dream by showing the downfall of its characters. Gatsby's wealth couldn't save him from his tragic end, mirroring the economic collapse that would soon affect the whole country. The hope and optimism of the 1920s were replaced by a focus on survival and stability during the Depression.
+    </p>
+
+    <h3>1940s: World War II</h3>
+    <p>
+      During World War II, the American Dream was about working together and hoping for a better future after the war. People valued hard work and sacrifice, much like Gatsby's determination, but for the good of everyone. This collective effort was different from Gatsby's individual pursuit of wealth. The war brought a sense of unity and purpose that contrasted with the selfish pursuits of characters like Tom Buchanan, who cared only for their own pleasure and status.
+    </p>
+
+    <h3>1950s: Post-War Boom</h3>
+    <p>
+      In the 1950s, the American Dream was about having a house, a steady job, and living in the suburbs. This was different from Gatsby's dream of being wealthy and famous. People wanted stability and comfort for their families. The ideal life included a nice house in a suburban neighborhood, a car, and modern appliances. The dream of home ownership and a stable family life was a reaction to the instability and excess of the 1920s. While Gatsby's dream was flashy and extravagant, the 1950s dream was modest and family-oriented.
+    </p>
+
+    <h3>1960s: Civil Rights Movement</h3>
+    <p>
+      In the 1960s, the American Dream included fighting for equal rights and justice for everyone. Unlike Gatsby's personal dream of wealth, this dream was about making society fairer and giving everyone the same opportunities. The Civil Rights Movement pushed for changes that would allow all people to achieve their dreams. This era expanded the American Dream to include social justice and equality, challenging the exclusive and elitist world of East Egg and West Egg in "The Great Gatsby."
+    </p>
+
+    <h3>2000s: The Digital Age</h3>
+    <p>
+      In the 2000s, the American Dream changed with technology. It became about starting new tech companies and being innovative. Like Gatsby's dream of success, people wanted to be successful, but now it was in the digital world. Entrepreneurs like Steve Jobs and Mark Zuckerberg became symbols of the new American Dream. They showed that with a good idea and hard work, anyone could achieve success in the tech industry. The dream was now about innovation and making a global impact, reflecting Gatsby's own aspirations to rise above his humble beginnings and be recognized.
+    </p>
+
+    <h3>2020s: Modern Day</h3>
+    <p>
+      Today, the American Dream means different things to different people. It includes being happy, healthy, and part of a community. It also means thinking about the environment and future generations. In some ways, it goes back to Gatsby's deeper wish for love and belonging, while also addressing new challenges and opportunities in a complex world. For example, many people today dream of creating a sustainable lifestyle that balances personal success with caring for the planet. The dream now includes diverse perspectives and values, showing that the core desire for a better life remains, even as the details change.
+    </p>
+  </section>
+
+  <section id="reflections">
+    <h2>User Reflections</h2>
+    <form id="reflection-form">
+      <label for="reflection">Share your thoughts on the American Dream:</label>
+      <textarea id="reflection" name="reflection" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <div id="user-reflections">
+      <!-- User reflections will be displayed here -->
+    </div>
+  </section>
+
+  <section id="quiz">
+    <h2>Quiz: Test Your Knowledge</h2>
+    <div id="quiz-container">
+      <form id="quiz-form">
+        <div class="quiz-question">
+          <p>1. What is the main symbol of Gatsby's dream?</p>
+          <label><input type="radio" name="q1" value="a"> His house</label><br>
+          <label><input type="radio" name="q1" value="b"> The green light</label><br>
+          <label><input type="radio" name="q1" value="c"> His car</label>
+        </div>
+        <div class="quiz-question">
+          <p>2. Who is Gatsby's love interest?</p>
+          <label><input type="radio" name="q2" value="a"> Myrtle Wilson</label><br>
+          <label><input type="radio" name="q2" value="b"> Jordan Baker</label><br>
+          <label><input type="radio" name="q2" value="c"> Daisy Buchanan</label>
+        </div>
+        <div class="quiz-question">
+          <p>3. Where does Gatsby's wealth come from?</p>
+          <label><input type="radio" name="q3" value="a"> Inheritance</label><br>
+          <label><input type="radio" name="q3" value="b"> Illegal activities</label><br>
+          <label><input type="radio" name="q3" value="c"> Stock market</label>
+        </div>
+        <div class="quiz-question">
+          <p>4. What is the significance of the green light?</p>
+          <label><input type="radio" name="q4" value="a"> It represents Gatsby's hopes and dreams</label><br>
+          <label><input type="radio" name="q4" value="b"> It is a navigation signal</label><br>
+          <label><input type="radio" name="q4" value="c"> It is a symbol of wealth</label>
+        </div>
+        <div class="quiz-question">
+          <p>5. Who narrates "The Great Gatsby"?</p>
+          <label><input type="radio" name="q5" value="a"> Jay Gatsby</label><br>
+          <label><input type="radio" name="q5" value="b"> Tom Buchanan</label><br>
+          <label><input type="radio" name="q5" value="c"> Nick Carraway</label>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+      <div id="quiz-results"></div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
